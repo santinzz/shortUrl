@@ -31,6 +31,7 @@ export const createUserService = async ({
     });
   } catch (e) {
     if (e instanceof Error) {
+      console.error(e.message);
       return error(500, {
         message: e.message,
       });

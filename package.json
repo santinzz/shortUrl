@@ -6,6 +6,8 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "@prisma/adapter-libsql": "^5.13.0",
     "@prisma/client": "5.13.0",
     "bcryptjs": "^2.4.3",
     "elysia": "latest",
